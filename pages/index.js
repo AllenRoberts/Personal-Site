@@ -1,6 +1,6 @@
-import Layout from "../components/Layout";
+import FrontPage from "../components/FrontPage";
 const Home = () => {
-  return <Layout></Layout>;
+  return <FrontPage></FrontPage>;
 };
 
 export default Home;
