@@ -9,32 +9,31 @@ const Navbar = () => {
       w="100%"
       h="100%"
       direction="column"
-      bg='black.300'
+      color="black"
     >
       <Center>
       <HStack spacing="24px">
+        
   <Button 
-  colorScheme="teal" 
-  variant="solid" 
+  color="#00b3ff" 
+  variant="outline" 
   onClick={() => router.push('/projects')}
   >
-    Projects
+    <Text fontSize={["sm", "md", "lg", "xl"]}>Projects</Text>
   </Button>
   <Button 
-  colorScheme="teal" 
-  variant="solid" 
-  href="../resume.js" 
+  color="#00b3ff" 
+  variant="outline"
   onClick={() => router.push('/resume')}
   >
-    Resume 
+    <Text fontSize={["sm", "md", "lg", "xl"]}>Resume & Skills</Text>
   </Button>
   <Button 
-  colorScheme="teal" 
-  variant="solid" 
-  href="../about.js" 
+  color="#00b3ff" 
+  variant="outline"
   onClick={() => router.push('/about')}
   >
-    About 
+    <Text fontSize={["sm", "md", "lg", "xl"]}>About</Text>
   </Button>
   
 </HStack>

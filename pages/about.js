@@ -1,4 +1,4 @@
-import FrontPage from "../components/FrontPage";
+import AboutPage from "../components/AboutPage";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
 import { Box, Grid } from "@chakra-ui/layout";
@@ -26,9 +26,10 @@ const About = ({ children, title = "Allen Roberts" }) => {
     w="100%"
     gridTemplateColumns="repeat(12, 1fr)"
     gridTemplateRows="repeat(12, 1fr)"
-    bg = "teal.200"
+    bg = "black"
   >
-    <Box gridColumn="1/13" gridRow="4/5" >
+    <Box gridColumn="1/13" gridRow="2/3" >
+        <AboutPage></AboutPage>
     </Box>
     <Box gridColumn="4/10" gridRow="6/8">
       <Navbar></Navbar>

@@ -7,11 +7,10 @@ const FrontPage = () => {
       w="100%"
       h="100%"
       direction="column"
-      bg='black.300'
       
     >
       <Center>
-       <Heading fontSize="5xl" noOfLines={2} pt={100} text-align = "center">
+       <Heading color = "#00b3ff" fontSize="5xl" noOfLines={2} pt={100} text-align = "center">
         I'm Allen Roberts, welcome to my site!
     </Heading>
     

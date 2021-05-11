@@ -2,7 +2,8 @@ import FrontPage from "../components/FrontPage";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
 import { Box, Grid } from "@chakra-ui/layout";
-const Home = ({ children, title = "form builder" }) => {
+
+const Home = ({ children, title = "Allen Roberts" }) => {
   return(
   <Box height="100%">
   <Head>
@@ -25,7 +26,7 @@ const Home = ({ children, title = "form builder" }) => {
     w="100%"
     gridTemplateColumns="repeat(12, 1fr)"
     gridTemplateRows="repeat(12, 1fr)"
-    bg = "teal.200"
+    bg="black"
   >
     <Box gridColumn="1/13" gridRow="4/5" >
       <FrontPage></FrontPage>
