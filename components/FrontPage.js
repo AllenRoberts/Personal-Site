@@ -22,9 +22,9 @@ const FrontPage = () => {
   </Center>
   <Center>
     <UnorderedList color= "#00b3ff">
-  <ListItem fontSize={["sm", "md", "lg", "xl"]} pt={10} >I'm a graduate from EKU with a bachelor's in Computer Science (2021).</ListItem>
-  <ListItem fontSize={["sm", "md", "lg", "xl"]} pt={10} >I'm developing this website as a way to further develop my programming capabilities.</ListItem>
-  <ListItem fontSize={["sm", "md", "lg", "xl"]} pt={10} >In my free time I'm usually hiking, reading, or playing video games.</ListItem>
+  <ListItem fontSize={["sm", "md", "lg", "xl"]} pt={5} >I'm a graduate from EKU with a bachelor's in Computer Science (2021).</ListItem>
+  <ListItem fontSize={["sm", "md", "lg", "xl"]} pt={5} >I'm developing this website as a way to further develop my programming capabilities.</ListItem>
+  <ListItem fontSize={["sm", "md", "lg", "xl"]} pt={5} >In my free time I'm usually hiking, reading, or playing video games.</ListItem>
   </UnorderedList>
   </Center>
     </Flex>
