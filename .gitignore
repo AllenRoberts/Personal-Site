@@ -2,6 +2,9 @@
 # next.js build output
 .next
 
+# static folder for DigitalOcean App Platform
+_static
+
 # dotenv environment variables file (build for Zeit Now)
 .env
 .env.build
