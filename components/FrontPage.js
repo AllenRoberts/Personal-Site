@@ -16,7 +16,7 @@ const FrontPage = () => {
     </Center>
     <Center>
     
-    <Heading color = "#00b3ff" fontSize={["xl", "2xl" ]} noOfLines={2} pt={10}>
+    <Heading fontFamily="Share Tech Mono" color = "#00b3ff" fontSize={["xl", "2xl" ]} noOfLines={2} pt={10}>
         Here are a few things about me:
     </Heading>
   </Center>

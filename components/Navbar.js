@@ -9,6 +9,7 @@ const Navbar = () => {
       w="100%"
       h="100%"
       direction="column"
+      bg = "black"
     >
       <Center>
       <HStack spacing="24px">

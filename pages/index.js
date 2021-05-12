@@ -18,11 +18,12 @@ const Home = ({ children, title = "Allen Roberts" }) => {
     gridTemplateRows="repeat(12, 1fr)"
     overflowY="hidden"
     overflowX="hidden"
+    bg = "black"
   >
-    <Box gridColumn="1/13" gridRow="1/8"  overflowY="auto">
+    <Box gridColumn="1/13" gridRow="1/10"  overflowY="auto">
       <FrontPage></FrontPage>
     </Box>
-    <Box gridColumn="1/13" gridRow="9/13">
+    <Box gridColumn="1/13" gridRow="10/13">
       <Navbar></Navbar>
     </Box>
     </Grid>
