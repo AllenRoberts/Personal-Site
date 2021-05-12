@@ -7,6 +7,7 @@ const ResumePage = () => {
       w="100%"
       h="100%"
       direction="column"
+      
     >
       <Center>
        <Heading fontFamily="Share Tech Mono" fontSize="xl"  pt={10} text-align = "center">

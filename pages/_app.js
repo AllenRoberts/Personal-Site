@@ -17,6 +17,14 @@ function MyApp({ Component, pageProps }) {
     div#__next > div {
       height: 100%;
     }
+    #__next {
+      height: 100%;
+    }
+    body {
+      height: 100%;
+    }
+    
+    
     
   `}</style>
       <div style={{ position: 'absolute'}}>

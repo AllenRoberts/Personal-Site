@@ -18,12 +18,11 @@ const Resume = ({ children, title = "Allen Roberts" }) => {
     gridTemplateColumns="repeat(12, 1fr)"
     gridTemplateRows="repeat(12, 1fr)"
     bg = "black"
-    overflowX="hidden"
   >
-    <Box h= "75%" gridColumn="1/13" gridRow="1/10" overflowY="auto" >
+    <Box h= "75%" gridColumn="1/13" gridRow="1/10" overflowY="auto" zIndex="10">
       <ResumePage></ResumePage>
     </Box>
-    <Box gridColumn="1/13" gridRow="10/13" >
+    <Box h="25%" gridColumn="1/13" gridRow="10/13" >
       <Navbar></Navbar>
     </Box>
     </Grid>

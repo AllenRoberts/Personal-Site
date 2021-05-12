@@ -16,10 +16,9 @@ const Projects = ({ children, title = "Allen Roberts" }) => {
     w="100%"
     gridTemplateColumns="repeat(12, 1fr)"
     gridTemplateRows="repeat(12, 1fr)"
-    bg = "black"
-    overflowX="hidden"
+    
   >
-    <Box gridColumn="1/13" gridRow="1/8"  overflowY="auto">
+    <Box gridColumn="1/13" gridRow="1/8"  overflowY="auto" zIndex="10">
       <ProjectsPage></ProjectsPage>
     </Box>
     <Box gridColumn="1/13" gridRow="11/13">

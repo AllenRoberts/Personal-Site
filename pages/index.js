@@ -20,7 +20,7 @@ const Home = ({ children, title = "Allen Roberts" }) => {
     overflowX="hidden"
     bg = "black"
   >
-    <Box gridColumn="1/13" gridRow="1/10"  overflowY="auto">
+    <Box gridColumn="1/13" gridRow="1/10"  overflowY="auto" zIndex="10">
       <FrontPage></FrontPage>
     </Box>
     <Box gridColumn="1/13" gridRow="10/13">

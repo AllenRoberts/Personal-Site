@@ -17,6 +17,7 @@ const Navbar = () => {
   <Button 
   color="#00b3ff" 
   variant="outline" 
+  size="md"
   onClick={() => router.push('/projects')}
   >
     <Text fontSize={["sm", "md", "lg", "xl"]}>Projects</Text>
@@ -24,6 +25,7 @@ const Navbar = () => {
   <Button 
   color="#00b3ff" 
   variant="outline"
+  size="md"
   onClick={() => router.push('/resume')}
   >
     <Text fontSize={["sm", "md", "lg", "xl"]}>Resume & Skills</Text>
@@ -31,6 +33,7 @@ const Navbar = () => {
   <Button 
   color="#00b3ff" 
   variant="outline"
+  size="md"
   onClick={() => router.push('/')}
   >
     <Text fontSize={["sm", "md", "lg", "xl"]}>Home</Text>

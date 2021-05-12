@@ -5,7 +5,7 @@ const ProjectsPage = () => {
   return (
     <Flex
       w="100%"
-      h="max-content"
+      h="100%"
       direction="column"
     >
       <Center>
