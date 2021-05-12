@@ -9,7 +9,7 @@ const ProjectsPage = () => {
       direction="column"
     >
       <Center>
-       <Heading color = "#00b3ff" fontSize={["xl", "2xl", "3xl", "4xl" ]}  pt={10} text-align = "center">
+       <Heading fontFamily="Share Tech Mono" fontSize={["xl", "2xl", "3xl", "4xl" ]}  pt={10} text-align = "center">
         Here's are some projects I've worked on:
     </Heading>
     </Center>
@@ -20,13 +20,13 @@ const ProjectsPage = () => {
   align="stretch"
 >
   <Box >
-  <Heading color = "#00b3ff" fontSize={["xl", "2xl", "3xl", "4xl" ]}  pt={10}>
+  <Heading fontFamily="Share Tech Mono" fontSize={["xl", "2xl", "3xl", "4xl" ]}  pt={10}>
         This Site (2021-)
     </Heading>
-    <Text color = "#00b3ff">I will be actively working on this site to further help me develop my React and UI design skills. I will add more complex features as my skills and experience grow.</Text>
+    <Text >I will be actively working on this site to further help me develop my React and UI design skills. I will add more complex features as my skills and experience grow.</Text>
   </Box>
   <Box >
-  <Heading color = "#00b3ff" fontSize={["xl", "2xl", "3xl", "4xl" ]}  pt={10}>
+  <Heading fontFamily="Share Tech Mono" fontSize={["xl", "2xl", "3xl", "4xl" ]}  pt={10}>
         WIP
     </Heading>
 

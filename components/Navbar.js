@@ -9,7 +9,6 @@ const Navbar = () => {
       w="100%"
       h="100%"
       direction="column"
-      color="black"
     >
       <Center>
       <HStack spacing="24px">
@@ -31,11 +30,10 @@ const Navbar = () => {
   <Button 
   color="#00b3ff" 
   variant="outline"
-  onClick={() => router.push('/about')}
+  onClick={() => router.push('/')}
   >
-    <Text fontSize={["sm", "md", "lg", "xl"]}>About</Text>
+    <Text fontSize={["sm", "md", "lg", "xl"]}>Home</Text>
   </Button>
-  
 </HStack>
     
     </Center>
