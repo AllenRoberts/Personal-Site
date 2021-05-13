@@ -12,7 +12,7 @@ const Navbar = () => {
       bg = "black"
     >
       <Center>
-      <HStack spacing="24px">
+      <HStack spacing="15px">
         
   <Button 
   color="#00b3ff" 
