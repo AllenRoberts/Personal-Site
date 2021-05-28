@@ -21,7 +21,7 @@ const Projects = ({ children, title = "Allen Roberts" }) => {
     <Box gridColumn="1/13" gridRow="1/8"  overflowY="auto" zIndex="10">
       <ProjectsPage></ProjectsPage>
     </Box>
-    <Box gridColumn="1/13" gridRow="11/13">
+    <Box gridColumn="1/13" gridRow="10/13">
       <Navbar></Navbar>
     </Box>
     </Grid>

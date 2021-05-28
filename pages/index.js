@@ -4,30 +4,30 @@ import Head from "next/head";
 import { Box, Grid } from "@chakra-ui/layout";
 
 const Home = ({ children, title = "Allen Roberts" }) => {
-  return(
-  <Box height="100%">
-  <Head>
-    <title>{title}</title>
-    <meta charSet="utf-8" />
-    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-  </Head>
-  <Grid
-    h="100%"
-    w="100%"
-    gridTemplateColumns="repeat(12, 1fr)"
-    gridTemplateRows="repeat(12, 1fr)"
-    overflowY="hidden"
-    overflowX="hidden"
-    bg = "black"
-  >
-    <Box gridColumn="1/13" gridRow="1/10"  overflowY="auto" zIndex="10">
-      <FrontPage></FrontPage>
+  return (
+    <Box height="100%">
+      <Head>
+        <title>{title}</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+      <Grid
+        h="100%"
+        w="100%"
+        gridTemplateColumns="repeat(12, 1fr)"
+        gridTemplateRows="repeat(12, 1fr)"
+        overflowY="hidden"
+        overflowX="hidden"
+        bg="black"
+      >
+        <Box gridColumn="1/13" gridRow="1/10" overflowY="auto" zIndex="10">
+          <FrontPage></FrontPage>
+        </Box>
+        <Box gridColumn="1/13" gridRow="10/13">
+          <Navbar></Navbar>
+        </Box>
+      </Grid>
     </Box>
-    <Box gridColumn="1/13" gridRow="10/13">
-      <Navbar></Navbar>
-    </Box>
-    </Grid>
-    </Box>
-)
-  }
+  );
+};
 export default Home;
