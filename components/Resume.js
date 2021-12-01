@@ -62,7 +62,7 @@ const ResumePage = () => {
         <Text pt={4}>
           If you're interested in my work and are interested in working with me,
           you can download my resume{" "}
-          <a href="/Allen Roberts Resume.doc" download="resume">
+          <a href="/Allen Roberts Resume.pdf" download="resume">
             <Button aria-label="download resume" size="sm" variant="outline">
               Here
             </Button>
